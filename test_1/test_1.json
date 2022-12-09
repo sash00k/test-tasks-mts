@@ -1,0 +1,295 @@
+[
+  {
+    "global_id": 570,
+    "text": "на какой тариф мне перейти без абонентской платы? ",
+    "id": 1713,
+    "class": [
+      {
+        "start": 27,
+        "end": 48,
+        "text": "без абонентской платы",
+        "labels": [
+          "без абонентской платы"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1713,
+    "created_at": "2022-11-23T15:24:16.257000Z",
+    "updated_at": "2022-11-23T15:24:16.257000Z",
+    "lead_time": 5.593
+  },
+  {
+    "global_id": 569,
+    "text": "что это за 450 рублей мать их когда я с апреля на весь мтс перешел?",
+    "id": 1712,
+    "class": [
+      {
+        "start": 11,
+        "end": 21,
+        "text": "450 рублей",
+        "labels": [
+          "[[moneyAmount]]"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 46,
+        "text": "апреля",
+        "labels": [
+          "[[month]]"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 58,
+        "text": "весь мтс",
+        "labels": [
+          "[[tariffName]]"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1712,
+    "created_at": "2022-11-23T15:24:10.156000Z",
+    "updated_at": "2022-11-25T05:44:03.533000Z",
+    "lead_time": 13.84
+  },
+  {
+    "global_id": 568,
+    "text": "можно получить бесплатно гб ?",
+    "id": 1711,
+    "class": [
+      {
+        "start": 25,
+        "end": 27,
+        "text": "гб",
+        "labels": [
+          "[[bytes]]"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1711,
+    "created_at": "2022-11-23T15:23:51.443000Z",
+    "updated_at": "2022-11-23T15:23:51.444000Z",
+    "lead_time": 5.164
+  },
+  {
+    "global_id": 567,
+    "text": "бесплатный турбо бонус 3 гб интернета ",
+    "id": 1710,
+    "class": [
+      {
+        "start": 23,
+        "end": 27,
+        "text": "3 гб",
+        "labels": [
+          "[[bytes]]"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1710,
+    "created_at": "2022-11-23T15:23:45.715000Z",
+    "updated_at": "2022-11-23T15:23:45.715000Z",
+    "lead_time": 26.169
+  },
+  {
+    "global_id": 566,
+    "text": "продлите мне пакет интернета там у вас вроде бесплатно есть ",
+    "id": 1709,
+    "class": [
+      {
+        "start": 13,
+        "end": 28,
+        "text": "пакет интернета",
+        "labels": [
+          "трафик"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1709,
+    "created_at": "2022-11-23T15:23:18.992000Z",
+    "updated_at": "2022-11-25T06:16:20.402000Z",
+    "lead_time": 49.211
+  },
+  {
+    "global_id": 565,
+    "text": "здравствуйте, подскажите, у вас есть тарифы для мобильных wi-fi роутеров?",
+    "id": 1708,
+    "class": [
+      {
+        "start": 58,
+        "end": 63,
+        "text": "wi-fi",
+        "labels": [
+          "WiFi"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 72,
+        "text": "роутеров",
+        "labels": [
+          "роутер"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1708,
+    "created_at": "2022-11-23T15:22:41.080000Z",
+    "updated_at": "2022-11-23T15:22:41.080000Z",
+    "lead_time": 23.346
+  },
+  
+  {
+    "global_id": 563,
+    "text": "доброе утро, сколько сейчас стоит нетариф с минимальным количеством минут и максимальным количеством интернета?",
+    "id": 1706,
+    "class": [
+      {
+        "start": 21,
+        "end": 27,
+        "text": "сейчас",
+        "labels": [
+          "[[relativeTime]"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "text": "нетариф",
+        "labels": [
+          "[[tariffName]]"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 110,
+        "text": "количеством интернета",
+        "labels": [
+          "трафик"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1706,
+    "created_at": "2022-11-23T15:21:56.926000Z",
+    "updated_at": "2022-11-25T06:15:44.714000Z",
+    "lead_time": 13.546
+  },
+  {
+    "global_id": 562,
+    "text": "в моем пакете услуг 1000 смс бесплатно. с того момента когда перешла на этот тариф смс не отправляются. по какой причине? ",
+    "id": 1705,
+    "class": [
+      {
+        "start": 25,
+        "end": 28,
+        "text": "смс",
+        "labels": [
+          "смс"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 86,
+        "text": "смс",
+        "labels": [
+          "смс"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 76,
+        "text": "этот",
+        "labels": [
+          "этот"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 54,
+        "text": "того момента",
+        "labels": [
+          "[[relativeTime]"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1705,
+    "created_at": "2022-11-23T15:20:54.988000Z",
+    "updated_at": "2022-11-25T06:20:45.214000Z",
+    "lead_time": 11.296
+  },
+  {
+    "global_id": 561,
+    "text": "добрый день, скажите возможно ли на моём тарифе убрать минуты и добавить гб, цену оставить такую же",
+    "id": 1704,
+    "class": [
+      {
+        "start": 73,
+        "end": 75,
+        "text": "гб",
+        "labels": [
+          "[[bytes]]"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "text": "цену",
+        "labels": [
+          "абонентская плата"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1704,
+    "created_at": "2022-11-23T15:20:37.118000Z",
+    "updated_at": "2022-11-23T15:20:37.118000Z",
+    "lead_time": 13.328
+  },
+  {
+    "global_id": 560,
+    "text": "плчему платные звонки?",
+    "id": 1703,
+    "class": [
+      {
+        "start": 15,
+        "end": 21,
+        "text": "звонки",
+        "labels": [
+          "звонки"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1703,
+    "created_at": "2022-11-23T15:20:23.299000Z",
+    "updated_at": "2022-11-25T06:21:01.055000Z",
+    "lead_time": 27.112
+  },
+  {
+    "global_id": 559,
+    "text": "почему у меня платные минуты и смс?",
+    "id": 1702,
+    "class": [
+      {
+        "start": 31,
+        "end": 34,
+        "text": "смс",
+        "labels": [
+          "смс"
+        ]
+      }
+    ],
+    "annotator": "labler10@mts.ru",
+    "annotation_id": 1702,
+    "created_at": "2022-11-23T15:20:19.917000Z",
+    "updated_at": "2022-11-23T15:20:19.917000Z",
+    "lead_time": 5.511
+  } 
+]
